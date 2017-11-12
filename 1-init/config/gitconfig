@@ -1,3 +1,5 @@
 [user]
 	email = amar.cutura@gmail.com
 	name = cutamar
+[merge]
+	tool = kdiff3
