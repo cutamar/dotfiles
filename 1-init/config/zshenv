@@ -1,2 +1,14 @@
+# docker aliases
 alias docker-nuke='docker rm -f $(docker ps -q -a); docker rmi -f $(docker images -q); docker volume rm -f $(docker volume ls -q); docker network rm $(docker network ls -q)'
+
+# common tools
 alias clip='xclip -sel clip'
+
+# python virtualenv wrapper
+venv_wrapper_script="/usr/bin/virtualenvwrapper.sh"
+if [ -f "$venv_wrapper_script" ]
+then
+    export WORKON_HOME=~/.virtualenvs
+    mkdir -p "$WORKON_HOME"
+    source "$venv_wrapper_script"
+fi
