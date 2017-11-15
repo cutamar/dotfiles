@@ -3,6 +3,10 @@ alias docker-nuke='docker rm -f $(docker ps -q -a); docker rmi -f $(docker image
 docker-sh() {
 	docker exec -it "$1" sh
 }
+alias dp='docker ps'
+alias di='docker image'
+alias dv='docker volume'
+alias dn='docker network'
 
 # common tools
 alias clip='xclip -sel clip'
@@ -12,11 +16,18 @@ mkcd() {
     mkdir -p "$1"
     builtin cd "$1"
 }
+alias cb="git branch | grep -E '^\* ' | sed 's/^\* //g'"
+alias gs='git status'
+alias ga="git add --all"
+alias gc='git commit -a --allow-empty-message -m ""'
+alias gg='git pull origin $(cb)'
+alias gp='git push origin $(cb)'
 
 # common mistyping
 alias gti=git
 alias dokcer=docker
 alias sl=ls
+alias cd..='cd ..'
 
 # python virtualenv wrapper
 venv_wrapper_script="/usr/bin/virtualenvwrapper.sh"
