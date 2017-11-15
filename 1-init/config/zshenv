@@ -18,8 +18,6 @@ mkcd() {
 }
 alias cb="git branch | grep -E '^\* ' | sed 's/^\* //g'"
 alias gs='git status'
-alias ga="git add --all"
-alias gc='git commit -a --allow-empty-message -m ""'
 alias gg='git pull origin $(cb)'
 alias gp='git push origin $(cb)'
 
