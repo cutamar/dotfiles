@@ -3,3 +3,7 @@
 	name = cutamar
 [merge]
 	tool = kdiff3
+[color]
+	ui = auto
+[pull]
+	rebase = true
