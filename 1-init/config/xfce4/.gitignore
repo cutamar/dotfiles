@@ -1,2 +1,4 @@
 panel/whiskermenu-8.rc
-xfconf/xfce-perchannel-xml/thunar.xml
+xfconf/xfce-perchannel-xml
+desktop
+xfce4-screenshooter
