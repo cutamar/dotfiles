@@ -76,3 +76,6 @@ _right_align() {
     [[ $PADDING -gt 0 ]] && builtin printf "%${PADDING}s"
     builtin echo "$1"
 }
+
+# weather
+alias weather='curl wttr.in/munich'
