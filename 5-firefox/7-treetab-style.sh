@@ -1,1 +1,1 @@
-cp -rf config/chrome ~/.mozilla/firefox/*.default/
+cp -rf config/chrome ~/.mozilla/firefox/*.default*/

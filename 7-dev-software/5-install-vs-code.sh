@@ -1,1 +1,1 @@
-yaourt -S visual-studio-code --noconfirm
+sudo pacman -S code --noconfirm

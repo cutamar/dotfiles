@@ -1,1 +1,1 @@
-cp config/user.js ~/.mozilla/firefox/*.default/
+cp -rf config/user.js ~/.mozilla/firefox/*.default*/
