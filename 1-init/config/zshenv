@@ -78,4 +78,7 @@ _right_align() {
 }
 
 # weather
-alias weather='curl wttr.in/munich'
+alias weather='curl wttr.in/zurich'
+
+# android studio
+export ANDROID_SDK=/home/amar/Android/Sdk
