@@ -82,3 +82,10 @@ alias weather='curl wttr.in/zurich'
 
 # android studio
 export ANDROID_SDK=/home/amar/Android/Sdk
+
+# gpg agent
+export SSH_AGENT_PID=
+export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR}/gnupg/S.gpg-agent.ssh"
+
+# setup tools
+export SETUPTOOLS_USE_DISTUTILS="stdlib"
